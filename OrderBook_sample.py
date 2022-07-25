@@ -11,4 +11,4 @@ def ob():
     ob = exchange.fetch_order_book(symbol)
     return ob
 
-print(ob())
+print(ob()).   # return the object, only one timestamp per run with n-dim array of format [bid price, bid volume], [ask price, ask volume]
