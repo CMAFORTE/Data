@@ -3,7 +3,7 @@ import ccxt
 symbol = 'uBTCUSD'
 exchange = ccxt.binance({    # change to any exchange you want
     'enableRateLimit':True,
-    'apiKey': 'your api key',
+    'apiKey': 'your api key',    # need to have at least one account in that exchange
     'secret': 'your key',
 })
 
